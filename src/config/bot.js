@@ -92,10 +92,10 @@ export const botConfig = {
       secondary: "#8B0000", 
 
       // Standard status colors for success/error/warning/info messages.
-      success: "#57F287", 
-      error: "#ED4245", 
-      warning: "#FEE75C", 
-      info: "#3498DB", 
+      success: "#520101", 
+      error: "##520101", 
+      warning: "#520101", 
+      info: "##520101", 
 
       // Neutral utility colors.
       light: "#FFFFFF",
@@ -136,7 +136,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "/geass",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -156,15 +156,15 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "dark coin",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "dark coins",
       // Currency symbol shown in balances.
       symbol: "$",
     },
 
     // Starting balance for new users.
-    startingBalance: 0,
+    startingBalance: 100,
 
     // Maximum bank amount before upgrades (if upgrades are used).
     baseBankCapacity: 100000,
@@ -289,7 +289,7 @@ export const botConfig = {
   // =========================
   verification: {
     // Message shown when posting the verification panel.
-    defaultMessage: "Click the button below to verify yourself and gain access to the server!",
+    defaultMessage: "Click the button below to verify yourself and gain access to our EMPIRE!",
 
     // Text on the verification button.
     defaultButtonText: "Verify",
