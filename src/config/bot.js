@@ -25,7 +25,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "/overline",
+        name: ".gg/harmzone",
         // Activity type number (0 = Playing).
         type: 2, 
       },
@@ -136,7 +136,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "/geass",
+      text: ".gg/harmzone",
       // Footer icon URL (null = no icon).
       icon: null,
     },
